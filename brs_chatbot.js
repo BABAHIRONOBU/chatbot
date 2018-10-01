@@ -4,6 +4,6 @@ window.onload = function() {
     document.getElementsByTagName('body')[0].appendChild(div);
 
     var script = document.createElement('script');
-    script.setAttribute('src', './dist/build.js');
+    script.setAttribute('src', 'https://babahironobu.github.io/chatbot/dist/build.js');
     document.getElementsByTagName('body')[0].appendChild(script);
 }
