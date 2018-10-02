@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "/dist/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 13);
+/******/ 	return __webpack_require__(__webpack_require__.s = 14);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -239,7 +239,7 @@ if (typeof DEBUG !== 'undefined' && DEBUG) {
   ) }
 }
 
-var listToStyles = __webpack_require__(32)
+var listToStyles = __webpack_require__(37)
 
 /*
 type StyleObject = {
@@ -2512,7 +2512,7 @@ var autoReplace = function autoReplace() {
 /* unused harmony export faBookReader */
 /* unused harmony export faBookmark */
 /* unused harmony export faBowlingBall */
-/* unused harmony export faBox */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return faBox; });
 /* unused harmony export faBoxOpen */
 /* unused harmony export faBoxes */
 /* unused harmony export faBraille */
@@ -2532,7 +2532,7 @@ var autoReplace = function autoReplace() {
 /* unused harmony export faBusinessTime */
 /* unused harmony export faCalculator */
 /* unused harmony export faCalendar */
-/* unused harmony export faCalendarAlt */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return faCalendarAlt; });
 /* unused harmony export faCalendarCheck */
 /* unused harmony export faCalendarMinus */
 /* unused harmony export faCalendarPlus */
@@ -2960,7 +2960,7 @@ var autoReplace = function autoReplace() {
 /* unused harmony export faPhoneSlash */
 /* unused harmony export faPhoneSquare */
 /* unused harmony export faPhoneVolume */
-/* unused harmony export faPiggyBank */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return faPiggyBank; });
 /* unused harmony export faPills */
 /* unused harmony export faPlaceOfWorship */
 /* unused harmony export faPlane */
@@ -3042,7 +3042,7 @@ var autoReplace = function autoReplace() {
 /* unused harmony export faShoePrints */
 /* unused harmony export faShoppingBag */
 /* unused harmony export faShoppingBasket */
-/* unused harmony export faShoppingCart */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return faShoppingCart; });
 /* unused harmony export faShower */
 /* unused harmony export faShuttleVan */
 /* unused harmony export faSign */
@@ -3144,7 +3144,7 @@ var autoReplace = function autoReplace() {
 /* unused harmony export faThumbtack */
 /* unused harmony export faTicketAlt */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return faTimes; });
-/* unused harmony export faTimesCircle */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return faTimesCircle; });
 /* unused harmony export faTint */
 /* unused harmony export faTintSlash */
 /* unused harmony export faTired */
@@ -3163,7 +3163,7 @@ var autoReplace = function autoReplace() {
 /* unused harmony export faTrashAlt */
 /* unused harmony export faTree */
 /* unused harmony export faTrophy */
-/* unused harmony export faTruck */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return faTruck; });
 /* unused harmony export faTruckLoading */
 /* unused harmony export faTruckMonster */
 /* unused harmony export faTruckMoving */
@@ -3175,7 +3175,7 @@ var autoReplace = function autoReplace() {
 /* unused harmony export faUmbrellaBeach */
 /* unused harmony export faUnderline */
 /* unused harmony export faUndo */
-/* unused harmony export faUndoAlt */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return faUndoAlt; });
 /* unused harmony export faUniversalAccess */
 /* unused harmony export faUniversity */
 /* unused harmony export faUnlink */
@@ -3234,7 +3234,7 @@ var autoReplace = function autoReplace() {
 /* unused harmony export faWindowRestore */
 /* unused harmony export faWineGlass */
 /* unused harmony export faWineGlassAlt */
-/* unused harmony export faWonSign */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return faWonSign; });
 /* unused harmony export faWrench */
 /* unused harmony export faXRay */
 /* unused harmony export faYenSign */
@@ -5395,13 +5395,13 @@ var _iconsCache = {
 /***/ (function(module, exports, __webpack_require__) {
 
 function injectStyle (ssrContext) {
-  __webpack_require__(30)
+  __webpack_require__(35)
 }
 var Component = __webpack_require__(1)(
   /* script */
   __webpack_require__(10),
   /* template */
-  __webpack_require__(26),
+  __webpack_require__(30),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -16350,7 +16350,7 @@ Vue.compile = compileToFunctions;
 
 /* harmony default export */ __webpack_exports__["a"] = (Vue);
 
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(3), __webpack_require__(20).setImmediate))
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(3), __webpack_require__(22).setImmediate))
 
 /***/ }),
 /* 9 */
@@ -16399,12 +16399,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__BotChat_vue__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__BotChat_vue__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__BotChat_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__BotChat_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__UserChat_vue__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__UserChat_vue__ = __webpack_require__(26);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__UserChat_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__UserChat_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__MessageInput_vue__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__MessageInput_vue__ = __webpack_require__(24);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__MessageInput_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__MessageInput_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__QuestionSelects_vue__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__QuestionSelects_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__QuestionSelects_vue__);
 //
 //
 //
@@ -16447,6 +16449,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+
 
 
 
@@ -16454,37 +16461,44 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     name: 'chat-bot',
-    components: { BotChat: __WEBPACK_IMPORTED_MODULE_0__BotChat_vue___default.a, UserChat: __WEBPACK_IMPORTED_MODULE_1__UserChat_vue___default.a, MessageInput: __WEBPACK_IMPORTED_MODULE_2__MessageInput_vue___default.a },
+    components: { BotChat: __WEBPACK_IMPORTED_MODULE_0__BotChat_vue___default.a, UserChat: __WEBPACK_IMPORTED_MODULE_1__UserChat_vue___default.a, MessageInput: __WEBPACK_IMPORTED_MODULE_2__MessageInput_vue___default.a, QuestionSelects: __WEBPACK_IMPORTED_MODULE_3__QuestionSelects_vue___default.a },
     data() {
         return {
             chatbot: false,
             brs_style: 'width: 76px !important; height: 76px !important; bottom: 24px; right: 24px;',
+            bot_chat_types: {
+                plain_type: {
+                    joined_msg_list: ['아직 챗팅으로 대화할 수 없습니다.;홈 버튼을 눌러 다시 시작해 주세요.'],
+                    question: false,
+                    orders: false,
+                    order_items: false
+                },
+                question_type: {
+                    joined_msg_list: ['고객님, 무엇을 도와 드릴까요?', '고객님이 필요한 정보를 찾아드리겠습니다.;아래의 유형 중 하나를 선택해주세요.', '24시간 쉬지 않고 최선을 다 하는 브루스 챗봇입니다.;어떤 도움이 필요하신가요?', '저는 고객님들의 보다 더 편한 쇼핑몰 사용을 도와드리고 있는 브루스 챗봇입니다.;언제든 필요하면 불러주세요.^^;무엇을 도와 드릴까요?'],
+                    question: true,
+                    orders: false,
+                    order_items: false
+                },
+                orders_type: {
+                    joined_msg_list: ['주문 내역 조회 결과입니다.;아직 서버와의 통신이 이루어 지지 않아 데이터가 없습니다.;처음으로 돌아가시려면 홈 버튼을 눌러주세요.'],
+                    question: false,
+                    orders: true,
+                    order_items: false
+                },
+                order_items_type: {
+                    joined_msg_list: ['주문 상세 내역입니다.'],
+                    question: false,
+                    orders: false,
+                    order_items: true
+                }
+            },
             conversation: [{
                 bot: true,
                 minute_time: new Date(new Date().setSeconds(0)),
-                chats: [{ time: new Date(), message: "안녕하세요 브루스 챗봇입니다.^^" }, { time: new Date(), message: "현재는 기본적인 챗팅 기능만 있어요 마음껏 테스트해보세요." }]
-                // {
-                //     bot: false,
-                //     minute_time: new Date(new Date().setSeconds(0)),
-                //     chats: [
-                //         { time: new Date(), message: "Support" }
-                //     ]
-                // },
-                // {
-                //     bot: true,
-                //     minute_time: new Date(new Date().setSeconds(0)),
-                //     chats: [
-                //         { time: new Date(), message: "OK got it." },
-                //         { time: new Date(), message: "What kinds of support features are you looking for?" }
-                //     ]
-                // },
-                // {
-                //     bot: false,
-                //     minute_time: new Date(new Date().setSeconds(0)),
-                //     chats: [
-                //         { time: new Date(), message: "BRS Chatbot hosted help docs BRS Chatbot hosted help docs" }
-                //     ]
-                // }
+                chats: [{ time: new Date(), message: "안녕하세요 고객님! 브루스 챗봇입니다." }, { time: new Date(), message: "무엇을 도와 드릴까요?" }],
+                question: true,
+                orders: false,
+                order_items: false
             }]
         };
     },
@@ -16493,35 +16507,94 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             this.chatbot = true;
             this.brs_style = 'width: 400px !important; height: 80% !important; bottom: 0; right: 0;';
         },
+
         hide: function () {
             this.chatbot = false;
             this.brs_style = 'width: 76px !important; height: 76px !important; bottom: 24px; right: 24px;';
         },
-        home: function () {
-            var now = new Date();
-            var msg = '아직 홈 기능은 없어요ㅠㅠ';
-            var chat = { time: new Date(now.valueOf()), message: msg };
 
-            var new_speaker = { bot: true, minute_time: new Date(now.setSeconds(0)), chats: [] };
-            new_speaker.chats.push(chat);
-            this.conversation.push(new_speaker);
+        home: function () {
+            var user_msg = '처음으로';
+            var bot_chat_type = 'question_type';
+
+            this.addChatSet(user_msg, bot_chat_type);
         },
-        inputEvent: function (msg) {
+
+        inputMessage: function (msg) {
+            var bot_chat_type = 'plain_type';
+            this.addChatSet(msg, bot_chat_type);
+        },
+
+        selectQuestion: function (id, question) {
+            var bot_chat_type = 'orders_type';
+            this.addChatSet(question, bot_chat_type);
+        },
+
+        addChatSet: function (user_msg, bot_chat_type) {
             var now = new Date();
             var last_speaker = this.conversation[this.conversation.length - 1];
 
-            var time_criteria = new Date(last_speaker.minute_time.valueOf());
-            var new_minute = time_criteria.getMinutes() + 1;
-            time_criteria.setMinutes(new_minute);
+            if (last_speaker.bot) {
+                last_speaker.question = false;
+                last_speaker.orders = false;
+                last_speaker.order_items = false;
 
-            var chat = { time: new Date(now.valueOf()), message: msg };
-            if (last_speaker.bot || now > time_criteria) {
-                var new_speaker = { bot: false, minute_time: new Date(now.setSeconds(0)), chats: [] };
-                new_speaker.chats.push(chat);
-                this.conversation.push(new_speaker);
+                this.addUserChatGroup(user_msg, now);
             } else {
-                last_speaker.chats.push(chat);
+                var time_criteria = new Date(last_speaker.minute_time.valueOf());
+                var new_minute = time_criteria.getMinutes() + 1;
+                time_criteria.setMinutes(new_minute);
+
+                if (now > time_criteria) {
+                    this.addUserChatGroup(user_msg, now);
+                } else {
+                    var user_chat = { time: new Date(now.valueOf()), message: user_msg };
+                    last_speaker.chats.push(user_chat);
+                }
             }
+            var type = this.bot_chat_types[bot_chat_type];
+            var joined_msg_list = type.joined_msg_list;
+            var joined_msg = joined_msg_list[Math.floor(Math.random() * joined_msg_list.length)];
+            switch (bot_chat_type) {
+                case 'plain_type':
+                    this.addBotChatGroup(joined_msg, now);
+                    break;
+                case 'question_type':
+                    this.addBotChatGroup(joined_msg, now, { question: true });
+                    break;
+                case 'orders_type':
+                    this.addBotChatGroup(joined_msg, now, { orders: true });
+                    break;
+                case 'order_items_type':
+                    this.addBotChatGroup(joined_msg, now, { order_items: true });
+                    break;
+                default:
+                    this.addBotChatGroup(joined_msg, now);
+            }
+        },
+
+        addUserChatGroup: function (user_msg, time) {
+            var user_chats = new Array();
+            var user_chat = { time: new Date(time.valueOf()), message: user_msg };
+            user_chats.push(user_chat);
+
+            var new_speaker = { bot: false, minute_time: new Date(time.setSeconds(0)), chats: user_chats,
+                question: false, orders: false, order_items: false };
+            this.conversation.push(new_speaker);
+        },
+
+        addBotChatGroup: function (bot_joined_msg, time, { question = false, orders = false, order_items = false } = {}) {
+            var bot_chats = new Array();
+            var bot_msgs = bot_joined_msg.split(';');
+
+            for (var bot_msg in bot_msgs) {
+                var bot_chat = { time: new Date(time.valueOf()), message: bot_msgs[bot_msg] };
+                bot_chats.push(bot_chat);
+            }
+
+            var new_speaker = { bot: true, minute_time: new Date(time.setSeconds(0)), chats: bot_chats,
+                question: question, orders: orders, order_items: order_items };
+            this.conversation.push(new_speaker);
         },
         scrollToEnd: function () {
             if (this.chatbot) {
@@ -16615,6 +16688,103 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 
 /* harmony default export */ __webpack_exports__["default"] = ({
+  name: 'quetion-selects',
+  data() {
+    return {
+      out_color: "color: rgb(10, 91, 255); border: 1px solid rgb(10, 91, 255); background-color: rgb(255, 255, 255);",
+      hover_color: "color: rgb(255, 255, 255); border: 1px solid rgb(10, 91, 255); background-color: rgb(10, 91, 255);",
+      // very soft blue -> 만약 색깔을 바꿀 수 있게 된다면 disabled color로 very soft {{color}}를 사용하면 된다.
+      disabled_color: "color: rgb(159,186,223); border: 1px solid rgb(159,186,223); background-color: rgb(255, 255, 255);",
+      selects_data: [{
+        id: 1,
+        question: '주문/배송',
+        icon: 'truck',
+        isDisabled: false
+      }, {
+        id: 2,
+        question: '교환/반품',
+        icon: 'undo-alt',
+        isDisabled: true
+      }, {
+        id: 3,
+        question: '취소',
+        icon: 'times-circle',
+        isDisabled: true
+      }, {
+        id: 4,
+        question: '환불',
+        icon: 'won-sign',
+        isDisabled: true
+      }, {
+        id: 5,
+        question: '상품관련 문의',
+        icon: 'box',
+        isDisabled: true
+      }, {
+        id: 6,
+        question: '적립금',
+        icon: 'piggy-bank',
+        isDisabled: true
+      }, {
+        id: 7,
+        question: '장바구니',
+        icon: 'shopping-cart',
+        isDisabled: true
+      }, {
+        id: 8,
+        question: '이벤트',
+        icon: 'calendar-alt',
+        isDisabled: true
+      }]
+    };
+  },
+  methods: {
+    hover(e) {
+      if (e.target === e.currentTarget) {
+        e.target.setAttribute('style', this.hover_color);
+      } else {
+        e.currentTarget.setAttribute('style', this.hover_color);
+      }
+    },
+    hover_out(e) {
+      if (e.target === e.currentTarget) {
+        e.target.setAttribute('style', this.out_color);
+      } else {
+        e.currentTarget.setAttribute('style', this.out_color);
+      }
+    },
+    set_color(isDisabled) {
+      if (isDisabled) {
+        return this.disabled_color;
+      } else {
+        return this.out_color;
+      }
+    },
+    select_question(e) {
+      this.$emit('selectquestion', e.currentTarget.getAttribute('name'), e.currentTarget.innerText.trim());
+    }
+  }
+});
+
+/***/ }),
+/* 13 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
     name: 'user-chat',
     data() {
         return {
@@ -16634,7 +16804,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 13 */
+/* 14 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16652,7 +16822,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__WEBPACK_IMPORTED_MODULE_2__fortawesome_fontawesome_svg_core__["library"].add(__WEBPACK_IMPORTED_MODULE_3__fortawesome_free_solid_svg_icons__["a" /* faCommentAlt */], __WEBPACK_IMPORTED_MODULE_3__fortawesome_free_solid_svg_icons__["b" /* faHome */], __WEBPACK_IMPORTED_MODULE_3__fortawesome_free_solid_svg_icons__["c" /* faTimes */]);
+__WEBPACK_IMPORTED_MODULE_2__fortawesome_fontawesome_svg_core__["library"].add(__WEBPACK_IMPORTED_MODULE_3__fortawesome_free_solid_svg_icons__["a" /* faCommentAlt */], __WEBPACK_IMPORTED_MODULE_3__fortawesome_free_solid_svg_icons__["b" /* faHome */], __WEBPACK_IMPORTED_MODULE_3__fortawesome_free_solid_svg_icons__["c" /* faTimes */], __WEBPACK_IMPORTED_MODULE_3__fortawesome_free_solid_svg_icons__["d" /* faTruck */], __WEBPACK_IMPORTED_MODULE_3__fortawesome_free_solid_svg_icons__["e" /* faUndoAlt */], __WEBPACK_IMPORTED_MODULE_3__fortawesome_free_solid_svg_icons__["f" /* faTimesCircle */], __WEBPACK_IMPORTED_MODULE_3__fortawesome_free_solid_svg_icons__["g" /* faWonSign */], __WEBPACK_IMPORTED_MODULE_3__fortawesome_free_solid_svg_icons__["h" /* faPiggyBank */], __WEBPACK_IMPORTED_MODULE_3__fortawesome_free_solid_svg_icons__["i" /* faBox */], __WEBPACK_IMPORTED_MODULE_3__fortawesome_free_solid_svg_icons__["j" /* faShoppingCart */], __WEBPACK_IMPORTED_MODULE_3__fortawesome_free_solid_svg_icons__["k" /* faCalendarAlt */]);
 
 __WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */].component('font-awesome-icon', __WEBPACK_IMPORTED_MODULE_4__fortawesome_vue_fontawesome__["FontAwesomeIcon"]);
 
@@ -16662,20 +16832,6 @@ new __WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */]({
     el: '#brs',
     render: h => h(__WEBPACK_IMPORTED_MODULE_1__components_ChatBot_vue___default.a)
 });
-
-/***/ }),
-/* 14 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(0)();
-// imports
-
-
-// module
-exports.push([module.i, "", ""]);
-
-// exports
-
 
 /***/ }),
 /* 15 */
@@ -16700,7 +16856,7 @@ exports = module.exports = __webpack_require__(0)();
 
 
 // module
-exports.push([module.i, "#brs{border:none;display:block;position:fixed;top:auto;left:auto;visibility:visible;z-index:2147483647;max-height:100vh;max-width:100vw;transition:none 0s ease 0s;background:none transparent;opacity:1}.brs-chatbot-container{position:absolute;z-index:2147483647;width:100%;height:100%;color:#333;font-size:16px;overflow:hidden}.brs-chatbot-container *{box-sizing:border-box;outline:none}.brs-chatbot-close{position:absolute;bottom:0;width:100%;display:-ms-flexbox;display:flex;-ms-flex-pack:end;justify-content:flex-end;-ms-flex-align:end;align-items:flex-end;padding:.75em .75em .75em 1rem;-ms-flex-direction:column;flex-direction:column}.brs-chatbot-close button{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center;z-index:1;width:52px;height:52px;cursor:pointer;border-radius:.3125rem;box-shadow:0 2px 6px 0 rgba(0,0,0,.4);overflow:hidden;padding:0;border:none;-ms-flex-negative:0;flex-shrink:0;position:relative}.brs-chatbot-close button i{width:100%;font-size:20px}.brs-chatbot-open{width:100%;padding:20px}.brs-chatbot-open,.brs-messanger-content{height:100%;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column}.brs-messanger-content{border-radius:10px;box-shadow:0 5px 25px 0 rgba(0,0,0,.13);background-color:#fff}.brs-messanger-header{border-top-left-radius:10px;border-top-right-radius:10px;display:-ms-flexbox;display:flex;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-align:center;align-items:center;-ms-flex-negative:0;flex-shrink:0;font-weight:500;box-shadow:0 15px 25px -13px rgba(0,0,0,.13);overflow:hidden;z-index:5;height:60px;padding:0 .8rem}.brs-chatbot-icon-wrapper{width:35px;height:35px;background-color:#fff;border-radius:50%;border:2px solid #fff}img.brs-chatbot-icon{width:100%;height:100%}.brs-chatbot-name{font-size:16px;overflow:hidden;text-overflow:ellipsis;-ms-flex:1 1 auto;flex:1 1 auto;margin-left:10px}.brs-messanger-header button{text-align:right;vertical-align:middle;cursor:pointer;background-color:transparent;border:none;padding:0;opacity:.6;transition:all .3s ease;min-height:30px;color:#fff;margin-left:18px}.brs-messanger-header button:hover{opacity:1}.brs-messanger-header button i{width:100%;font-size:24px}.brs-messanger-header button i.brs-font-home{font-size:22px}.brs-conversation{-ms-flex:1;flex:1;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;min-height:1px}.brs-messages{-ms-flex:1;flex:1;overflow-y:auto;-ms-flex-positive:1;flex-grow:1;padding:0 .65rem 1rem}.brs-message{overflow:hidden;width:auto;max-width:100%;display:flex;margin:.5rem 0;padding:.5rem 0;-ms-flex-align:end;align-items:flex-end;padding-right:18px;padding-left:0}.brs-avartar{margin-top:.15rem;margin-right:.75rem;-ms-flex-negative:0;flex-shrink:0;width:1.875rem;height:1.875rem}.brs-message .brs-message-container{overflow:hidden;width:auto;max-width:100%;-ms-flex-direction:column;flex-direction:column;display:-ms-flexbox;display:flex}.brs-message .brs-info-line{margin:0 12px;-ms-flex:0 1 auto;flex:0 1 auto;padding:.3125rem 0;font-size:12px;color:#9a9a9a;-ms-flex-align:center;align-items:center;display:-ms-flexbox;display:flex}.brs-message .brs-info-line .brs-info-line-content{font-weight:400}.brs-message .brs-chats{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;-ms-flex-align:start;align-items:flex-start;width:100%}.brs-message .brs-chat-time{position:absolute;bottom:-6px;right:10px;font-size:10px;color:#a0a0a0}.brs-message .brs-chats>:not(:last-child){margin-bottom:2px}.brs-message .brs-chats .brs-chat{border-radius:5px;max-width:100%;background-color:#f8f8f8;padding:.5rem .75rem;white-space:pre-wrap;word-wrap:break-word;word-break:keep-all}.brs-message .brs-chats .brs-chat.brs-bot{border-top-right-radius:20px;border-bottom-right-radius:20px}.brs-message .brs-chats .brs-chat.brs-bot:first-of-type{border-top-left-radius:20px}.brs-message .brs-chats .brs-chat.brs-bot:last-of-type{border-bottom-left-radius:20px}.brs-message .brs-chats .brs-chat.brs-user{border-top-left-radius:20px;border-bottom-left-radius:20px}.brs-message .brs-chats .brs-chat.brs-user:first-of-type{border-top-right-radius:20px}.brs-message .brs-chats .brs-chat.brs-user:last-of-type{border-bottom-right-radius:20px}.brs-message.brs-end-user{padding-right:0}.brs-message.brs-end-user .brs-chats,.brs-message.brs-end-user .brs-message-container{-ms-flex-pack:end;justify-content:flex-end;-ms-flex-align:end;align-items:flex-end;margin-left:auto}.brs-message.brs-end-user .brs-chats{padding-left:60px}.brs-messages-footer{border-radius:10px}.brs-messages-footer .brs-composer{background-color:#fff;border-bottom-left-radius:10px;border-bottom-right-radius:10px;position:relative;padding:.5rem 0 0}.brs-messages-footer .brs-flex-column{-ms-flex-direction:column;flex-direction:column;display:-ms-flexbox;display:flex}.brs-messages-footer .brs-input-wrapper{display:-ms-flexbox;display:flex}.brs-messages-footer textarea{font-family:inherit;overflow:auto;color:inherit;font:inherit;margin:0}.brs-messages-footer textarea.brs-input{width:100%;font-size:1rem;resize:none;margin-bottom:.5rem;padding:7px 15px;margin-bottom:12px;margin-left:15px;margin-right:15px;background:rgba(10,91,255,.03);border:1px solid #eee;border-radius:20px;line-height:1.2;-webkit-appearance:none;word-break:keep-all;-ms-word-break:keep-all}.brs-messages-footer textarea.brs-input:focus{outline:none}", ""]);
+exports.push([module.i, ".brs-selects-wrapper{display:block;text-align:right}.brs-selects-wrapper .brs-selects{display:inline-block;margin:-3px -2px;text-align:right}.brs-selects-wrapper .brs-selects button{display:inline-block;margin:3px 2px;font-size:1rem;padding:.5rem 1rem;border-radius:20px;transition:all .3s ease;min-width:9.85rem;text-align:center}.brs-selects-wrapper .brs-selects button:hover{background-color:currentColor}.brs-selects-wrapper .brs-selects button i{margin-right:5px;font-size:20px}", ""]);
 
 // exports
 
@@ -16721,6 +16877,34 @@ exports.push([module.i, "", ""]);
 
 /***/ }),
 /* 18 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)();
+// imports
+
+
+// module
+exports.push([module.i, "#brs{border:none;display:block;position:fixed;top:auto;left:auto;visibility:visible;z-index:2147483647;max-height:100vh;max-width:100vw;transition:none 0s ease 0s;background:none transparent;opacity:1}.brs-chatbot-container{position:absolute;z-index:2147483647;width:100%;height:100%;color:#333;font-size:16px;overflow:hidden}.brs-chatbot-container *{box-sizing:border-box;outline:none}.brs-chatbot-close{position:absolute;bottom:0;width:100%;display:-ms-flexbox;display:flex;-ms-flex-pack:end;justify-content:flex-end;-ms-flex-align:end;align-items:flex-end;padding:.75em .75em .75em 1rem;-ms-flex-direction:column;flex-direction:column}.brs-chatbot-close button{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center;z-index:1;width:52px;height:52px;cursor:pointer;border-radius:.3125rem;box-shadow:0 2px 6px 0 rgba(0,0,0,.4);overflow:hidden;padding:0;border:none;-ms-flex-negative:0;flex-shrink:0;position:relative}.brs-chatbot-close button i{width:100%;font-size:20px}.brs-chatbot-open{width:100%;padding:20px}.brs-chatbot-open,.brs-messanger-content{height:100%;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column}.brs-messanger-content{border-radius:10px;box-shadow:0 5px 25px 0 rgba(0,0,0,.13);background-color:#fff}.brs-messanger-header{border-top-left-radius:10px;border-top-right-radius:10px;display:-ms-flexbox;display:flex;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-align:center;align-items:center;-ms-flex-negative:0;flex-shrink:0;font-weight:500;box-shadow:0 15px 25px -13px rgba(0,0,0,.13);overflow:hidden;z-index:5;height:60px;padding:0 .8rem}.brs-chatbot-icon-wrapper{width:35px;height:35px;background-color:#fff;border-radius:50%;border:2px solid #fff}img.brs-chatbot-icon{width:100%;height:100%}.brs-chatbot-name{font-size:16px;overflow:hidden;text-overflow:ellipsis;-ms-flex:1 1 auto;flex:1 1 auto;margin-left:10px}.brs-messanger-header button{text-align:right;vertical-align:middle;cursor:pointer;background-color:transparent;border:none;padding:0;opacity:.6;transition:all .3s ease;min-height:30px;color:#fff;margin-left:18px}.brs-messanger-header button:hover{opacity:1}.brs-messanger-header button i{width:100%;font-size:24px}.brs-messanger-header button i.brs-font-home{font-size:22px}.brs-conversation{-ms-flex:1;flex:1;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;min-height:1px}.brs-messages{-ms-flex:1;flex:1;overflow-y:auto;-ms-flex-positive:1;flex-grow:1;padding:0 .65rem 1rem}.brs-message{overflow:hidden;width:auto;max-width:100%;display:flex;margin:.5rem 0;padding:.5rem 0;-ms-flex-align:end;align-items:flex-end;padding-right:18px;padding-left:0}.brs-avartar{margin-top:.15rem;margin-right:.75rem;-ms-flex-negative:0;flex-shrink:0;width:1.875rem;height:1.875rem}.brs-message .brs-message-container{overflow:hidden;width:auto;max-width:100%;-ms-flex-direction:column;flex-direction:column;display:-ms-flexbox;display:flex}.brs-message .brs-info-line{margin:0 12px;-ms-flex:0 1 auto;flex:0 1 auto;padding:.3125rem 0;font-size:12px;color:#9a9a9a;-ms-flex-align:center;align-items:center;display:-ms-flexbox;display:flex}.brs-message .brs-info-line .brs-info-line-content{font-weight:400}.brs-message .brs-chats{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;-ms-flex-align:start;align-items:flex-start;width:100%}.brs-message .brs-chat-time{position:absolute;bottom:-6px;right:10px;font-size:10px;color:#a0a0a0}.brs-message .brs-chats>:not(:last-child){margin-bottom:2px}.brs-message .brs-chats .brs-chat{border-radius:5px;max-width:100%;background-color:#f8f8f8;padding:.5rem .75rem;white-space:pre-wrap;word-wrap:break-word;word-break:keep-all}.brs-message .brs-chats .brs-chat.brs-bot{border-top-right-radius:20px;border-bottom-right-radius:20px}.brs-message .brs-chats .brs-chat.brs-bot:first-of-type{border-top-left-radius:20px}.brs-message .brs-chats .brs-chat.brs-bot:last-of-type{border-bottom-left-radius:20px}.brs-message .brs-chats .brs-chat.brs-user{border-top-left-radius:20px;border-bottom-left-radius:20px}.brs-message .brs-chats .brs-chat.brs-user:first-of-type{border-top-right-radius:20px}.brs-message .brs-chats .brs-chat.brs-user:last-of-type{border-bottom-right-radius:20px}.brs-message.brs-end-user{padding-right:0}.brs-message.brs-end-user .brs-chats,.brs-message.brs-end-user .brs-message-container{-ms-flex-pack:end;justify-content:flex-end;-ms-flex-align:end;align-items:flex-end;margin-left:auto}.brs-message.brs-end-user .brs-chats{padding-left:60px}.brs-messages-footer{border-radius:10px}.brs-messages-footer .brs-composer{background-color:#fff;border-bottom-left-radius:10px;border-bottom-right-radius:10px;position:relative;padding:.5rem 0 0}.brs-messages-footer .brs-flex-column{-ms-flex-direction:column;flex-direction:column;display:-ms-flexbox;display:flex}.brs-messages-footer .brs-input-wrapper{display:-ms-flexbox;display:flex}.brs-messages-footer textarea{font-family:inherit;overflow:auto;color:inherit;font:inherit;margin:0}.brs-messages-footer textarea.brs-input{width:100%;font-size:1rem;resize:none;margin-bottom:.5rem;padding:7px 15px;margin-bottom:12px;margin-left:15px;margin-right:15px;background:rgba(10,91,255,.03);border:1px solid #eee;border-radius:20px;line-height:1.2;-webkit-appearance:none;word-break:keep-all;-ms-word-break:keep-all}.brs-messages-footer textarea.brs-input:focus{outline:none}", ""]);
+
+// exports
+
+
+/***/ }),
+/* 19 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)();
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/***/ }),
+/* 20 */
 /***/ (function(module, exports) {
 
 // shim for using process in browser
@@ -16910,7 +17094,7 @@ process.umask = function() { return 0; };
 
 
 /***/ }),
-/* 19 */
+/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global, process) {(function (global, undefined) {
@@ -17100,10 +17284,10 @@ process.umask = function() { return 0; };
     attachTo.clearImmediate = clearImmediate;
 }(typeof self === "undefined" ? typeof global === "undefined" ? this : global : self));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3), __webpack_require__(18)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3), __webpack_require__(20)))
 
 /***/ }),
-/* 20 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {var scope = (typeof global !== "undefined" && global) ||
@@ -17159,7 +17343,7 @@ exports._unrefActive = exports.active = function(item) {
 };
 
 // setimmediate attaches itself to the global object
-__webpack_require__(19);
+__webpack_require__(21);
 // On some exotic environments, it's not clear which object `setimmediate` was
 // able to install onto.  Search each possibility in the same order as the
 // `setimmediate` library.
@@ -17173,15 +17357,84 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
-/* 21 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 function injectStyle (ssrContext) {
-  __webpack_require__(31)
+  __webpack_require__(36)
 }
 var Component = __webpack_require__(1)(
   /* script */
   __webpack_require__(9),
+  /* template */
+  __webpack_require__(31),
+  /* styles */
+  injectStyle,
+  /* scopeId */
+  null,
+  /* moduleIdentifier (server only) */
+  null
+)
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 24 */
+/***/ (function(module, exports, __webpack_require__) {
+
+function injectStyle (ssrContext) {
+  __webpack_require__(34)
+}
+var Component = __webpack_require__(1)(
+  /* script */
+  __webpack_require__(11),
+  /* template */
+  __webpack_require__(29),
+  /* styles */
+  injectStyle,
+  /* scopeId */
+  null,
+  /* moduleIdentifier (server only) */
+  null
+)
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 25 */
+/***/ (function(module, exports, __webpack_require__) {
+
+function injectStyle (ssrContext) {
+  __webpack_require__(33)
+}
+var Component = __webpack_require__(1)(
+  /* script */
+  __webpack_require__(12),
+  /* template */
+  __webpack_require__(28),
+  /* styles */
+  injectStyle,
+  /* scopeId */
+  null,
+  /* moduleIdentifier (server only) */
+  null
+)
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 26 */
+/***/ (function(module, exports, __webpack_require__) {
+
+function injectStyle (ssrContext) {
+  __webpack_require__(32)
+}
+var Component = __webpack_require__(1)(
+  /* script */
+  __webpack_require__(13),
   /* template */
   __webpack_require__(27),
   /* styles */
@@ -17196,53 +17449,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 22 */
-/***/ (function(module, exports, __webpack_require__) {
-
-function injectStyle (ssrContext) {
-  __webpack_require__(29)
-}
-var Component = __webpack_require__(1)(
-  /* script */
-  __webpack_require__(11),
-  /* template */
-  __webpack_require__(25),
-  /* styles */
-  injectStyle,
-  /* scopeId */
-  null,
-  /* moduleIdentifier (server only) */
-  null
-)
-
-module.exports = Component.exports
-
-
-/***/ }),
-/* 23 */
-/***/ (function(module, exports, __webpack_require__) {
-
-function injectStyle (ssrContext) {
-  __webpack_require__(28)
-}
-var Component = __webpack_require__(1)(
-  /* script */
-  __webpack_require__(12),
-  /* template */
-  __webpack_require__(24),
-  /* styles */
-  injectStyle,
-  /* scopeId */
-  null,
-  /* moduleIdentifier (server only) */
-  null
-)
-
-module.exports = Component.exports
-
-
-/***/ }),
-/* 24 */
+/* 27 */
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -17270,7 +17477,38 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 },staticRenderFns: []}
 
 /***/ }),
-/* 25 */
+/* 28 */
+/***/ (function(module, exports) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    staticClass: "brs-selects-wrapper"
+  }, [_c('div', {
+    staticClass: "brs-selects"
+  }, _vm._l((_vm.selects_data), function(select) {
+    return _c('button', {
+      key: select.id,
+      staticClass: "brs-select",
+      style: (_vm.set_color(select.isDisabled)),
+      attrs: {
+        "name": select.id,
+        "disabled": select.isDisabled
+      },
+      on: {
+        "mouseover": _vm.hover,
+        "click": _vm.select_question,
+        "mouseout": _vm.hover_out
+      }
+    }, [_c('i', [_c('font-awesome-icon', {
+      attrs: {
+        "icon": select.icon
+      }
+    })], 1), _vm._v("\n      " + _vm._s(select.question) + "\n    ")])
+  }))])
+},staticRenderFns: []}
+
+/***/ }),
+/* 29 */
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -17312,7 +17550,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 },staticRenderFns: []}
 
 /***/ }),
-/* 26 */
+/* 30 */
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -17401,20 +17639,24 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       staticStyle: {
         "position": "relative"
       }
-    }, [(speaker.bot) ? _c('bot-chat', {
+    }, [(speaker.bot) ? [_c('bot-chat', {
       attrs: {
         "messages": speaker.chats,
         "minute": speaker.minute_time
       }
-    }) : _c('user-chat', {
+    }), _vm._v(" "), (speaker.question) ? _c('question-selects', {
+      on: {
+        "selectquestion": _vm.selectQuestion
+      }
+    }) : _vm._e()] : _c('user-chat', {
       attrs: {
         "messages": speaker.chats,
         "minute": speaker.minute_time
       }
-    })], 1)
+    })], 2)
   }))]), _vm._v(" "), _c('message-input', {
     on: {
-      "inputmessage": _vm.inputEvent
+      "inputmessage": _vm.inputMessage
     }
   })], 1)])])])])
 },staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -17429,7 +17671,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 }]}
 
 /***/ }),
-/* 27 */
+/* 31 */
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -17466,20 +17708,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 }]}
 
 /***/ }),
-/* 28 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(14);
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add the styles to the DOM
-var update = __webpack_require__(2)("5fd73c7f", content, true, {});
-
-/***/ }),
-/* 29 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
@@ -17489,10 +17718,10 @@ var content = __webpack_require__(15);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(2)("15a6ddca", content, true, {});
+var update = __webpack_require__(2)("5fd73c7f", content, true, {});
 
 /***/ }),
-/* 30 */
+/* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
@@ -17502,10 +17731,10 @@ var content = __webpack_require__(16);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(2)("2ae86e3c", content, true, {});
+var update = __webpack_require__(2)("29b3aa59", content, true, {});
 
 /***/ }),
-/* 31 */
+/* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
@@ -17515,10 +17744,36 @@ var content = __webpack_require__(17);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
+var update = __webpack_require__(2)("15a6ddca", content, true, {});
+
+/***/ }),
+/* 35 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(18);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__(2)("2ae86e3c", content, true, {});
+
+/***/ }),
+/* 36 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(19);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
 var update = __webpack_require__(2)("e9159ea6", content, true, {});
 
 /***/ }),
-/* 32 */
+/* 37 */
 /***/ (function(module, exports) {
 
 /**
